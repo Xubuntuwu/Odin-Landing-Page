@@ -88,7 +88,7 @@ a {
     flex-basis: auto;
     flex-grow: 0;
     height: 250px;
-    width: 600px;
+    width: 500px;
     display: flex;
     background-color: gray;
     justify-content: center;
