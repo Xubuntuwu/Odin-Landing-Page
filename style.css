@@ -7,6 +7,7 @@ body {
 /*          BEGIN PART 1            */
 
 /* DESKTOP VERSION  */
+@media only screen and (min-width: 1500px) {
 .first-part {
     display: flex;
     justify-content: center;
@@ -37,6 +38,7 @@ body {
 .right-top {
     align-items: flex-end;
     padding-left: 40px;
+}
 }
 /* END DESKTOP VERSION */
 /*MOBILE VERSION */
