@@ -7,7 +7,7 @@ body {
 /*          BEGIN PART 1            */
 
 /* DESKTOP VERSION  */
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 100px) {
 .first-part {
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@ body {
 }
 }
 /* END DESKTOP VERSION */
-/*MOBILE VERSION */
+/*MOBILE VERSION 
 @media only screen and (max-width: 1500px) {
     .first-part {
         display: flex;
