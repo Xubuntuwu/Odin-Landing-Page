@@ -9,7 +9,7 @@ window.onload=function(){
       
         function greet() {
             const userName = prompt('What is your name?');
-            if (userName != null) {
+            if (userName != '') {
             alert(`Welcome ${capitalizeFirstLetter(userName)}, nice to meet you!`);
             alert('You turn my world upside down!');
             document.querySelector('body').style.transform = "rotate(180deg)";
@@ -17,7 +17,7 @@ window.onload=function(){
         }
         function normalgreet() {
             const name = prompt('What was your name again?');
-            if (name != null) {
+            if (name != '') {
                 alert(`Welcome back ${capitalizeFirstLetter(name)}, you found the right button!`);
                 alert('You turn my world rightside up!');
                 document.querySelector('body').style.transform = "rotate(0deg)";
