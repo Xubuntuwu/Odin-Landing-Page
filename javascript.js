@@ -15,7 +15,7 @@ window.onload=function(){
             const name = prompt('What was your name again?');
             if (name != null) {
                 alert(`Welcome back ${name}, you found the right button!`);
-                alert('You turn my world back rightside up!')
+                alert('You turn my world rightside up!');
                 document.querySelector('body').style.transform = "rotate(0deg)";
             }
         }
